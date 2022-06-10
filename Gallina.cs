@@ -22,7 +22,7 @@ namespace EjerciciosAnimales
         }
         public void nadar_animal()
         {
-            Console.WriteLine("la gallina " + nombre, " Nada");
+            Console.WriteLine("la gallina " + nombre+ " Nada");
 
         }
         public void volar_animal()

@@ -22,7 +22,7 @@ namespace EjerciciosAnimales
         }
         public void nadar_animal()
         {
-            Console.WriteLine("el condor " + nombre, " Nada");
+            Console.WriteLine("el condor " + nombre+ " Nada");
 
         }
 
