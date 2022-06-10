@@ -20,6 +20,7 @@ namespace EjerciciosAnimales
 
             foreach(iAve ave in animales_lista)
             {
+                ave.imprimir_datos();
                 ave.nadar_animal();
                 ave.volar_animal();
             }

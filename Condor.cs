@@ -9,7 +9,7 @@ namespace EjerciciosAnimales
     public class Condor:Ave, iAve
     {
         public Condor(string nombre, string color) : base(nombre, color) { }
-        public void nadar_animal()
+        public void imprimir_datos()
         {
 
             Console.WriteLine("-------------------");
@@ -20,6 +20,12 @@ namespace EjerciciosAnimales
             Console.WriteLine("-------------------");
 
         }
+        public void nadar_animal()
+        {
+            Console.WriteLine("el condor " + nombre, " Nada");
+
+        }
+
         public void volar_animal()
         {
             Console.WriteLine("-------------------");

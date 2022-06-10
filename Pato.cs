@@ -11,7 +11,7 @@ namespace EjerciciosAnimales
     {
         public Pato(string nombre, string color) : base(nombre, color) { }
 
-        public void nadar_animal()
+        public void imprimir_datos()
         {
             Console.WriteLine("-------------------");
             Console.WriteLine("");
@@ -19,6 +19,11 @@ namespace EjerciciosAnimales
             Console.WriteLine("Su color es " + color);
             Console.WriteLine("");
             Console.WriteLine("-------------------");
+
+        }
+        public void nadar_animal()
+        {
+            Console.WriteLine("el pato " + nombre, " Nada");
 
         }
         public void volar_animal()

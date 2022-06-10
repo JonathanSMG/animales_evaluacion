@@ -8,6 +8,7 @@ namespace EjerciciosAnimales
 {
     interface iAve
     {
+        void imprimir_datos();
         void nadar_animal();
         void volar_animal();
     }
